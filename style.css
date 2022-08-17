@@ -1,7 +1,7 @@
 :root {
   --primary_dark1: #1b2b46;
-  --primary_bright1: #ECE5C7;
-  --primary_bright2: #C2DED1;
+  --primary_bright1: #ece5c7;
+  --primary_bright2: #c2ded1;
   /* --primary_bright2: #fcb911; */
 }
 
@@ -104,7 +104,7 @@ a i {
 
 .content_heading {
   color: var(--primary_bright1);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1.2rem 0;
   font-size: 1.2rem;
 }
@@ -112,6 +112,14 @@ a i {
 .content_text {
   color: var(--primary_bright1);
   text-align: justify;
-  font-family:monospace;
+  font-family: monospace;
   font-size: 0.9rem;
+}
+
+.content_sub_text {
+  color: var(--primary_bright1);
+  text-align: justify;
+  font-family: monospace;
+  font-size: 0.8rem;
+  padding: 0rem 2rem;
 }
